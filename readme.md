@@ -14,3 +14,5 @@ First, I created an empty folder to put my project in. Then, I opened up my term
 Then, I opened up github and created a repository. They provide some instructions on setting up a connection quickly. I added the repository as a remote repository named `origin` with `git remote add origin https://github.com/pikeline/CSCGH.git`. Then, I pushed my files to github with `git push origin main`
 
 Next, I made a new branch with `git checkout -b fizzbuzz_class`. This created a new branch on git, allowing me to work on modifying `fizzbuzz.py` in a separate environment while keeping the current version of the files intact. This created a new branch (`-b`) named `fizzbuzz_class` and moved my git location to the new branch. Now, any changes I make will be on this branch. But first, I have to add them using `git add` and `git commit`. Also, you can see what branches are present at any time using `git branch`.
+
+To make the changes I made be reflected in `main`, you need to merge this. This is pretty simple. Swap which branch you are in to `main` with `git checkout main`. Then, use `git merge fizzbuzz_class` to update main with the branch's history.
