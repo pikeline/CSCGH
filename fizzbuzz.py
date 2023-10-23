@@ -3,13 +3,13 @@
 # and numbers divisible by both as “FizzBuzz.”
 # Do it for numbers 1 to 100
 
-for i in range(0,100):
-    output = f"{i} "
-    if (i % 3 == 0):
-        output += "Fizz"
-    if (i % 4 == 0):
-        output += "Buzz"
-    print(output)
+# for i in range(0,100):
+#     output = f"{i} "
+#     if (i % 3 == 0):
+#         output += "Fizz"
+#     if (i % 4 == 0):
+#         output += "Buzz"
+#     print(output)
 
 class fizzbuzz():
     def __init__(self, fizz_interval : int, buzz_interval : int):
